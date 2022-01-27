@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Aryana Collins Jackson</title>
-    <link>https://azcj.github.io/tags/</link>
+    <link>https://azcj.github.io/portfolio/tags/</link>
     <description>Recent content in Tags on Aryana Collins Jackson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Jan 2022 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://azcj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://azcj.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>mathematics</title>
-      <link>https://azcj.github.io/tags/mathematics/</link>
+      <link>https://azcj.github.io/portfolio/tags/mathematics/</link>
       <pubDate>Wed, 26 Jan 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://azcj.github.io/tags/mathematics/</guid>
+      <guid>https://azcj.github.io/portfolio/tags/mathematics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>scene</title>
-      <link>https://azcj.github.io/tags/scene/</link>
+      <link>https://azcj.github.io/portfolio/tags/scene/</link>
       <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
       
-      <guid>https://azcj.github.io/tags/scene/</guid>
+      <guid>https://azcj.github.io/portfolio/tags/scene/</guid>
       <description></description>
     </item>
     

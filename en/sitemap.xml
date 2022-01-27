@@ -3,147 +3,147 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://azcj.github.io/projects/project-2/</loc>
+    <loc>https://azcj.github.io/portfolio/projects/project-2/</loc>
     <lastmod>2022-01-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://azcj.github.io/</loc>
+    <loc>https://azcj.github.io/portfolio/</loc>
     <lastmod>2022-01-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://azcj.github.io/fr/"
+                href="https://azcj.github.io/portfolio/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://azcj.github.io/"
+                href="https://azcj.github.io/portfolio/"
                 />
   </url>
   
   <url>
-    <loc>https://azcj.github.io/projects/project-1/</loc>
+    <loc>https://azcj.github.io/portfolio/projects/project-1/</loc>
     <lastmod>2022-01-26T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://azcj.github.io/tags/mathematics/</loc>
+    <loc>https://azcj.github.io/portfolio/tags/mathematics/</loc>
     <lastmod>2022-01-26T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://azcj.github.io/tags/</loc>
+    <loc>https://azcj.github.io/portfolio/tags/</loc>
     <lastmod>2022-01-26T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://azcj.github.io/fr/tags/"
+                href="https://azcj.github.io/portfolio/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://azcj.github.io/tags/"
+                href="https://azcj.github.io/portfolio/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://azcj.github.io/projects/project-6/</loc>
+    <loc>https://azcj.github.io/portfolio/projects/project-6/</loc>
     <lastmod>2017-04-14T11:25:05-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://azcj.github.io/projects/project-5/</loc>
+    <loc>https://azcj.github.io/portfolio/projects/project-5/</loc>
     <lastmod>2017-04-13T11:15:58-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://azcj.github.io/projects/project-4/</loc>
+    <loc>https://azcj.github.io/portfolio/projects/project-4/</loc>
     <lastmod>2017-04-12T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://azcj.github.io/tags/scene/</loc>
+    <loc>https://azcj.github.io/portfolio/tags/scene/</loc>
     <lastmod>2017-04-12T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://azcj.github.io/fr/tags/scene/"
+                href="https://azcj.github.io/portfolio/fr/tags/scene/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://azcj.github.io/tags/scene/"
+                href="https://azcj.github.io/portfolio/tags/scene/"
                 />
   </url>
   
   <url>
-    <loc>https://azcj.github.io/projects/project-3/</loc>
+    <loc>https://azcj.github.io/portfolio/projects/project-3/</loc>
     <lastmod>2017-04-11T11:13:32-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://azcj.github.io/projects/</loc>
+    <loc>https://azcj.github.io/portfolio/projects/</loc>
     <lastmod>2017-03-02T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://azcj.github.io/about/</loc>
+    <loc>https://azcj.github.io/portfolio/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://azcj.github.io/categories/</loc>
+    <loc>https://azcj.github.io/portfolio/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://azcj.github.io/fr/categories/"
+                href="https://azcj.github.io/portfolio/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://azcj.github.io/categories/"
+                href="https://azcj.github.io/portfolio/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://azcj.github.io/contact/</loc>
+    <loc>https://azcj.github.io/portfolio/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://azcj.github.io/fr/contact/"
+                href="https://azcj.github.io/portfolio/fr/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://azcj.github.io/contact/"
+                href="https://azcj.github.io/portfolio/contact/"
                 />
   </url>
   
