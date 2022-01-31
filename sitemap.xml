@@ -17,6 +17,41 @@
   </url>
   
   <url>
+    <loc>https://azcj.github.io/portfolio/tags/mathematics/</loc>
+    <lastmod>2022-01-30T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/tags/seasonality-detection/</loc>
+    <lastmod>2022-01-30T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/seasonality_dft/</loc>
+    <lastmod>2022-01-30T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/tags/</loc>
+    <lastmod>2022-01-30T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/tags/time-series-analysis/</loc>
+    <lastmod>2022-01-30T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://azcj.github.io/portfolio/projects/agent_speech_expe_analysis/</loc>
     <lastmod>2022-01-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -31,21 +66,7 @@
   </url>
   
   <url>
-    <loc>https://azcj.github.io/portfolio/tags/</loc>
-    <lastmod>2022-01-27T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://azcj.github.io/portfolio/projects/computational_sl/</loc>
-    <lastmod>2022-01-26T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://azcj.github.io/portfolio/tags/mathematics/</loc>
     <lastmod>2022-01-26T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -75,20 +96,6 @@
   <url>
     <loc>https://azcj.github.io/portfolio/projects/anomaly_detection_dft/</loc>
     <lastmod>2017-04-13T11:15:58-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://azcj.github.io/portfolio/tags/scene/</loc>
-    <lastmod>2017-04-12T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://azcj.github.io/portfolio/projects/seasonality_dft/</loc>
-    <lastmod>2017-04-12T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

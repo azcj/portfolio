@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Seasonality detection with the discrete Fourier transform</title>
+      <link>https://azcj.github.io/portfolio/projects/seasonality_dft/</link>
+      <pubDate>Sun, 30 Jan 2022 11:14:48 -0400</pubDate>
+      
+      <guid>https://azcj.github.io/portfolio/projects/seasonality_dft/</guid>
+      <description>mathematics, seasonality detection, time series analysis</description>
+    </item>
+    
+    <item>
       <title>Statistical analysis of experiment data</title>
       <link>https://azcj.github.io/portfolio/projects/agent_speech_expe_analysis/</link>
       <pubDate>Thu, 27 Jan 2022 10:58:08 -0400</pubDate>
@@ -71,15 +80,6 @@
       <pubDate>Thu, 13 Apr 2017 11:15:58 -0400</pubDate>
       
       <guid>https://azcj.github.io/portfolio/projects/anomaly_detection_dft/</guid>
-      <description>coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Seasonality detection with the discrete Fourier transform</title>
-      <link>https://azcj.github.io/portfolio/projects/seasonality_dft/</link>
-      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/projects/seasonality_dft/</guid>
       <description>coming soon!</description>
     </item>
     

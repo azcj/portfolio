@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Aryana Collins Jackson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jan 2022 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jan 2022 11:14:48 -0400</lastBuildDate>
     
 	<atom:link href="https://azcj.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>mathematics</title>
+      <link>https://azcj.github.io/portfolio/tags/mathematics/</link>
+      <pubDate>Sun, 30 Jan 2022 11:14:48 -0400</pubDate>
+      
+      <guid>https://azcj.github.io/portfolio/tags/mathematics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>seasonality detection</title>
+      <link>https://azcj.github.io/portfolio/tags/seasonality-detection/</link>
+      <pubDate>Sun, 30 Jan 2022 11:14:48 -0400</pubDate>
+      
+      <guid>https://azcj.github.io/portfolio/tags/seasonality-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time series analysis</title>
+      <link>https://azcj.github.io/portfolio/tags/time-series-analysis/</link>
+      <pubDate>Sun, 30 Jan 2022 11:14:48 -0400</pubDate>
+      
+      <guid>https://azcj.github.io/portfolio/tags/time-series-analysis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>statistics</title>
@@ -17,24 +44,6 @@
       <pubDate>Thu, 27 Jan 2022 10:58:08 -0400</pubDate>
       
       <guid>https://azcj.github.io/portfolio/tags/statistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mathematics</title>
-      <link>https://azcj.github.io/portfolio/tags/mathematics/</link>
-      <pubDate>Wed, 26 Jan 2022 10:58:08 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/tags/mathematics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>scene</title>
-      <link>https://azcj.github.io/portfolio/tags/scene/</link>
-      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/tags/scene/</guid>
       <description></description>
     </item>
     

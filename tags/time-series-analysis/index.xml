@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mathematics on Aryana Collins Jackson</title>
-    <link>https://azcj.github.io/portfolio/tags/mathematics/</link>
-    <description>Recent content in mathematics on Aryana Collins Jackson</description>
+    <title>time series analysis on Aryana Collins Jackson</title>
+    <link>https://azcj.github.io/portfolio/tags/time-series-analysis/</link>
+    <description>Recent content in time series analysis on Aryana Collins Jackson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Jan 2022 11:14:48 -0400</lastBuildDate>
     
-	<atom:link href="https://azcj.github.io/portfolio/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://azcj.github.io/portfolio/tags/time-series-analysis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://azcj.github.io/portfolio/projects/seasonality_dft/</guid>
       <description>mathematics, seasonality detection, time series analysis</description>
-    </item>
-    
-    <item>
-      <title>Computational situational leadership</title>
-      <link>https://azcj.github.io/portfolio/projects/computational_sl/</link>
-      <pubDate>Wed, 26 Jan 2022 10:58:08 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/projects/computational_sl/</guid>
-      <description>mathematics, visualization</description>
     </item>
     
   </channel>
