@@ -6,10 +6,19 @@
     <description>Recent content in Welcome to Aryana&#39;s portfolio on Aryana Collins Jackson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jan 2022 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jan 2022 11:25:05 -0400</lastBuildDate>
     
 	<atom:link href="https://azcj.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An analysis and visualization of how I&#39;ve learned French from A1-B2</title>
+      <link>https://azcj.github.io/portfolio/projects/french/</link>
+      <pubDate>Sun, 30 Jan 2022 11:25:05 -0400</pubDate>
+      
+      <guid>https://azcj.github.io/portfolio/projects/french/</guid>
+      <description>visualization</description>
+    </item>
     
     <item>
       <title>Statistical analysis of experiment data</title>
@@ -36,15 +45,6 @@
       
       <guid>https://azcj.github.io/portfolio/projects/student_grades/</guid>
       <description>coming soon!</description>
-    </item>
-    
-    <item>
-      <title>An analysis and visualization of how I&#39;ve learned French</title>
-      <link>https://azcj.github.io/portfolio/projects/french/</link>
-      <pubDate>Fri, 14 Apr 2017 11:25:05 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/projects/french/</guid>
-      <description>visualization</description>
     </item>
     
     <item>

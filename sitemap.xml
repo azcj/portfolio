@@ -1,18 +1,128 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://azcj.github.io/portfolio/en/sitemap.xml</loc>
-		
-	   	<lastmod>2022-01-27T10:58:08-04:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://azcj.github.io/portfolio/fr/sitemap.xml</loc>
-		
-	   	<lastmod>2017-04-09T10:58:08-04:00</lastmod>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/french/</loc>
+    <lastmod>2022-01-30T11:25:05-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/</loc>
+    <lastmod>2022-01-30T11:25:05-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/agent_speech_expe_analysis/</loc>
+    <lastmod>2022-01-27T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/tags/statistics/</loc>
+    <lastmod>2022-01-27T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/tags/</loc>
+    <lastmod>2022-01-27T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/computational_sl/</loc>
+    <lastmod>2022-01-26T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/tags/mathematics/</loc>
+    <lastmod>2022-01-26T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/student_grades/</loc>
+    <lastmod>2017-04-14T11:25:05-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/scrabble/</loc>
+    <lastmod>2017-04-14T11:25:05-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/ireland_housing/</loc>
+    <lastmod>2017-04-14T11:25:05-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/anomaly_detection_dft/</loc>
+    <lastmod>2017-04-13T11:15:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/tags/scene/</loc>
+    <lastmod>2017-04-12T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/seasonality_dft/</loc>
+    <lastmod>2017-04-12T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/nlp/</loc>
+    <lastmod>2017-04-11T11:13:32-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/</loc>
+    <lastmod>2017-03-02T12:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>
