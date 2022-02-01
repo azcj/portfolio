@@ -3,22 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://azcj.github.io/portfolio/projects/french/</loc>
-    <lastmod>2022-01-30T11:25:05-04:00</lastmod>
+    <loc>https://azcj.github.io/portfolio/tags/anomaly-detection/</loc>
+    <lastmod>2022-01-31T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://azcj.github.io/portfolio/</loc>
-    <lastmod>2022-01-30T11:25:05-04:00</lastmod>
+    <loc>https://azcj.github.io/portfolio/projects/anomaly_detection_dft/</loc>
+    <lastmod>2022-01-31T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://azcj.github.io/portfolio/tags/mathematics/</loc>
-    <lastmod>2022-01-30T11:14:48-04:00</lastmod>
+    <lastmod>2022-01-31T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/tags/</loc>
+    <lastmod>2022-01-31T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/tags/time-series-analysis/</loc>
+    <lastmod>2022-01-31T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/</loc>
+    <lastmod>2022-01-31T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/french/</loc>
+    <lastmod>2022-01-30T11:25:05-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -32,20 +60,6 @@
   
   <url>
     <loc>https://azcj.github.io/portfolio/projects/seasonality_dft/</loc>
-    <lastmod>2022-01-30T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://azcj.github.io/portfolio/tags/</loc>
-    <lastmod>2022-01-30T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://azcj.github.io/portfolio/tags/time-series-analysis/</loc>
     <lastmod>2022-01-30T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -89,13 +103,6 @@
   <url>
     <loc>https://azcj.github.io/portfolio/projects/ireland_housing/</loc>
     <lastmod>2017-04-14T11:25:05-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://azcj.github.io/portfolio/projects/anomaly_detection_dft/</loc>
-    <lastmod>2017-04-13T11:15:58-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

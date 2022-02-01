@@ -6,17 +6,35 @@
     <description>Recent content in Tags on Aryana Collins Jackson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jan 2022 11:14:48 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 31 Jan 2022 11:14:48 -0400</lastBuildDate>
     
 	<atom:link href="https://azcj.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>anomaly detection</title>
+      <link>https://azcj.github.io/portfolio/tags/anomaly-detection/</link>
+      <pubDate>Mon, 31 Jan 2022 11:14:48 -0400</pubDate>
+      
+      <guid>https://azcj.github.io/portfolio/tags/anomaly-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>mathematics</title>
       <link>https://azcj.github.io/portfolio/tags/mathematics/</link>
-      <pubDate>Sun, 30 Jan 2022 11:14:48 -0400</pubDate>
+      <pubDate>Mon, 31 Jan 2022 11:14:48 -0400</pubDate>
       
       <guid>https://azcj.github.io/portfolio/tags/mathematics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time series analysis</title>
+      <link>https://azcj.github.io/portfolio/tags/time-series-analysis/</link>
+      <pubDate>Mon, 31 Jan 2022 11:14:48 -0400</pubDate>
+      
+      <guid>https://azcj.github.io/portfolio/tags/time-series-analysis/</guid>
       <description></description>
     </item>
     
@@ -26,15 +44,6 @@
       <pubDate>Sun, 30 Jan 2022 11:14:48 -0400</pubDate>
       
       <guid>https://azcj.github.io/portfolio/tags/seasonality-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>time series analysis</title>
-      <link>https://azcj.github.io/portfolio/tags/time-series-analysis/</link>
-      <pubDate>Sun, 30 Jan 2022 11:14:48 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/tags/time-series-analysis/</guid>
       <description></description>
     </item>
     

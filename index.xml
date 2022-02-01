@@ -6,10 +6,19 @@
     <description>Recent content in Welcome to Aryana&#39;s portfolio on Aryana Collins Jackson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jan 2022 11:25:05 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 31 Jan 2022 11:14:48 -0400</lastBuildDate>
     
 	<atom:link href="https://azcj.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anomaly detection in sparse, binary data</title>
+      <link>https://azcj.github.io/portfolio/projects/anomaly_detection_dft/</link>
+      <pubDate>Mon, 31 Jan 2022 11:14:48 -0400</pubDate>
+      
+      <guid>https://azcj.github.io/portfolio/projects/anomaly_detection_dft/</guid>
+      <description>mathematics, anomaly detection</description>
+    </item>
     
     <item>
       <title>An analysis and visualization of how I&#39;ve learned French from A1-B2</title>
@@ -71,15 +80,6 @@
       <pubDate>Fri, 14 Apr 2017 11:25:05 -0400</pubDate>
       
       <guid>https://azcj.github.io/portfolio/projects/ireland_housing/</guid>
-      <description>coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Anomaly detection using the discrete Fourier transform</title>
-      <link>https://azcj.github.io/portfolio/projects/anomaly_detection_dft/</link>
-      <pubDate>Thu, 13 Apr 2017 11:15:58 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/projects/anomaly_detection_dft/</guid>
       <description>coming soon!</description>
     </item>
     

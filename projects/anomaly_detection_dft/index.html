@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Anomaly detection using the discrete Fourier transform | Aryana Collins Jackson</title>
+    <title>Anomaly detection in sparse, binary data | Aryana Collins Jackson</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="My masters work">
+    <meta name="description" content="My masters thesis, part 2">
     <meta name="generator" content="Hugo 0.71.0" />
     
     
@@ -27,23 +27,23 @@
 
     
     
-    <meta property="og:title" content="Anomaly detection using the discrete Fourier transform" />
-<meta property="og:description" content="My masters work" />
+    <meta property="og:title" content="Anomaly detection in sparse, binary data" />
+<meta property="og:description" content="My masters thesis, part 2" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://azcj.github.io/portfolio/projects/anomaly_detection_dft/" />
-<meta property="article:published_time" content="2017-04-13T11:15:58-04:00" />
-<meta property="article:modified_time" content="2017-04-13T11:15:58-04:00" /><meta property="og:site_name" content="Aryana Collins Jackson" />
-<meta itemprop="name" content="Anomaly detection using the discrete Fourier transform">
-<meta itemprop="description" content="My masters work">
-<meta itemprop="datePublished" content="2017-04-13T11:15:58-04:00" />
-<meta itemprop="dateModified" content="2017-04-13T11:15:58-04:00" />
-<meta itemprop="wordCount" content="0">
+<meta property="article:published_time" content="2022-01-31T11:14:48-04:00" />
+<meta property="article:modified_time" content="2022-01-31T11:14:48-04:00" /><meta property="og:site_name" content="Aryana Collins Jackson" />
+<meta itemprop="name" content="Anomaly detection in sparse, binary data">
+<meta itemprop="description" content="My masters thesis, part 2">
+<meta itemprop="datePublished" content="2022-01-31T11:14:48-04:00" />
+<meta itemprop="dateModified" content="2022-01-31T11:14:48-04:00" />
+<meta itemprop="wordCount" content="989">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Anomaly detection using the discrete Fourier transform"/>
-<meta name="twitter:description" content="My masters work"/>
+<meta itemprop="keywords" content="mathematics,anomaly detection,time series analysis," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Anomaly detection in sparse, binary data"/>
+<meta name="twitter:description" content="My masters thesis, part 2"/>
 
 	
   </head>
@@ -56,7 +56,7 @@
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://azcj.github.io/portfolio/images/plant1.jpeg');">
+  <header class="cover bg-top" style="background-image: url('https://azcj.github.io/portfolio/images/anomaly-detection/anomaly_detection_both_datasets.png');">
     <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -113,10 +113,10 @@
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Anomaly detection using the discrete Fourier transform</h1>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Anomaly detection in sparse, binary data</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              My masters work
+              My masters thesis, part 2
             </h2>
           
         
@@ -149,7 +149,7 @@
   <div id="sharing" class="mt3 ananke-socials">
     
       
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://azcj.github.io/portfolio/projects/anomaly_detection_dft/&amp;title=Anomaly%20detection%20using%20the%20discrete%20Fourier%20transform" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://azcj.github.io/portfolio/projects/anomaly_detection_dft/&amp;title=Anomaly%20detection%20in%20sparse,%20binary%20data" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
         
         <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:{{ .fill }};"/>
@@ -161,17 +161,77 @@
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">Anomaly detection using the discrete Fourier transform</h1>
+      <h1 class="f1 athelas mt3 mb1">Anomaly detection in sparse, binary data</h1>
       
       
       
-      <time class="f6 mv4 dib tracked" datetime="2017-04-13T11:15:58-04:00">April 13, 2017</time>
+      <time class="f6 mv4 dib tracked" datetime="2022-01-31T11:14:48-04:00">January 31, 2022</time>
       
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul class="pa0">
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Overview:</p>
+<ul>
+<li>Created a new anomaly detection method for sparse and binary data</li>
+<li>Returned anomalies of two different types</li>
+</ul>
+<hr>
+<p><em>If this page has been helpful to you in your own research, please consider citing</em> <em><a href="https://www.researchgate.net/publication/341623703_The_discrete_Fourier_transformation_for_seasonality_and_anomaly_detection_on_an_application_to_rare_data">the paper where this work is published.</a></em></p>
+<p>This work follows <a href="https://azcj.github.io/portfolio/projects/seasonality_dft/">part 1 of my masters thesis</a> in which I detected seasonality from binary and rare data. Part of this project also involved detecting anomalies. Like existing work in seasonality detection, existing work in anomaly detection typically involves statistical anomalies or moving averages. These methods only work when the data is composed of values other than 0 and 1. On this page, I outline the problem and my solution.</p>
+<p><strong>THE PROBLEM</strong></p>
+<p>There are two types of anomalies that need to be detected:</p>
+<ol>
+<li>expected events that have not occurred</li>
+<li>unexpected events that have occurred</li>
+</ol>
+<p>Anomalies can be detected at different frequencies depending on the severity and
+sensitivity of each anomaly type. The necessary level set (sampling frequency) of anomaly detection is up to the user and dependent on his or her understanding of the data and what implications each anomaly type may have.</p>
+<p>For example, an event occurring during a window of 8am to 9am may be acceptable to a user. In this case, the data is sampled at a frequency of every hour (24 times per day). An instance that occurs outside the hours of 8am to 9am is considered anomalies of type 2. An 8am to 9am period without an instance is considered an anomaly of type 1.</p>
+<p>However, perhaps the event occurring any time on a weekday is acceptable but simply occurs most often between 8am and 9am. In this case, the data is sampled at a daily rate. An instance occurring on a weekend is flagged as an anomaly type 2, and a weekday which does not contain an instance is flagged as an anomaly type 1. Thus using various windows of time, anomalies can be set for any sampling level lower than the original sampling
+frequency.</p>
+<p>Like <a href="https://azcj.github.io/portfolio/projects/seasonality_dft/">part 1</a>, I worked with one-dimensional arrays of weekly events spanning for 56 days. The first array contains an anomaly of type 1 at index 21. An event that was supposed to happen on the 22nd day failed to occur:</p>
+<pre><code>signal1 = np.array(1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0)
+</code></pre>
+<p>The second array has an anomaly of type 2 at index 48. An unexpected event occurred on day 49.</p>
+<pre><code>signal2 = np.array(1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0)
+</code></pre>
+<p>Both of these signal are displayed in the chart below:</p>
+<p><img src="https://azcj.github.io/portfolio/images/anomaly-detection/anomaly_detection_both_datasets_original2.png" alt="Two anomalous signals"></p>
+<p>As I just mentioned above, traditional anomaly detection methods work with non-binary and non-sparse data (trust me, I tried about five different methods, and none of them worked). In order to detect both of these types of anomalies, I needed to develop something new.</p>
+<p><strong>MY SOLUTION</strong></p>
+<p>I developed a method (called sum of distances) in which each event instance in the signal is changed to a value representing the sum of its distance to the two points on either side. The new signal array after the sum of distances is applied on signal 1 is below:</p>
+<pre><code>signal1SOD = np.array(7, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0)
+</code></pre>
+<p>And looks like:</p>
+<p><img src="https://azcj.github.io/portfolio/images/anomaly-detection/signal1sod.png" alt="Signal 1 after SoD"></p>
+<p>As shown, the first instance has a value of 7 because naturally there is no instance before the first event of signal 1. A number of anomaly detection methods can now be used to then isolate index 21, such as moving average models and statistical methods. This can be as simple as identifying indices 14 and 28 as anomalies, noting that they are above the average for the event values in the rest of the signal, and therefore determining that there is a missing event that should have happened.</p>
+<p>Applying sum of distances to signal 2 results in the following array:</p>
+<pre><code>signal2SOD = np.array(7, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 7, 8, 0, 0, 0, 0, 0, 0)
+</code></pre>
+<p>And looks like:</p>
+<p><img src="https://azcj.github.io/portfolio/images/anomaly-detection/signal2sod.png" alt="Signal 2 after SoD"></p>
+<p>As shown from the graph, there is an obvious dip in the signal&rsquo;s event values around index 48, the index of the extra unexpected event. Again, traditional anomaly detection methods can be used here to identify indices 42, 48, and 49. When noting that their values are lower than the average for the event values in the rest of the signal, you can determine that an anomaly of type 2 has occurred.</p>
+<hr>
+<p><strong>Final thoughts:</strong></p>
+<ul>
+<li>Like <a href="https://azcj.github.io/portfolio/projects/seasonality_dft/">part 1 of my masters thesis</a>, this method can be applied to a number of different signals that contain rare and binary data.</li>
+<li>Using binary data makes it very easy to resample data at a lower sampling rate if necessary (e.g., sampling at every minute can be changed to sampling at every hour).</li>
+<li>Again, the major challenge to working with this method is figuring out what happens if two events occur during the same sampled time point.</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="https://azcj.github.io/portfolio/tags/mathematics" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">mathematics</a>
+   </li>
+  
+   <li class="list">
+     <a href="https://azcj.github.io/portfolio/tags/anomaly-detection" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">anomaly detection</a>
+   </li>
+  
+   <li class="list">
+     <a href="https://azcj.github.io/portfolio/tags/time-series-analysis" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">time series analysis</a>
+   </li>
   
 </ul>
 <div class="mt6 instapaper_ignoref">
@@ -184,6 +244,21 @@
 
 
 
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="https://azcj.github.io/portfolio/projects/seasonality_dft/">Seasonality detection with the discrete Fourier transform</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="https://azcj.github.io/portfolio/projects/computational_sl/">Computational situational leadership</a>
+        </li>
+	    
+    </ul>
+</div>
 
 </aside>
 
