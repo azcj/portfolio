@@ -6,7 +6,7 @@
     
     <title>Seasonality detection with the discrete Fourier transform | Aryana Collins Jackson</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="My masters work">
+    <meta name="description" content="My masters work, part 1">
     <meta name="generator" content="Hugo 0.71.0" />
     
     
@@ -28,22 +28,22 @@
     
     
     <meta property="og:title" content="Seasonality detection with the discrete Fourier transform" />
-<meta property="og:description" content="My masters work" />
+<meta property="og:description" content="My masters work, part 1" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://azcj.github.io/portfolio/projects/seasonality_dft/" />
 <meta property="article:published_time" content="2022-01-30T11:14:48-04:00" />
 <meta property="article:modified_time" content="2022-01-30T11:14:48-04:00" /><meta property="og:site_name" content="Aryana Collins Jackson" />
 <meta itemprop="name" content="Seasonality detection with the discrete Fourier transform">
-<meta itemprop="description" content="My masters work">
+<meta itemprop="description" content="My masters work, part 1">
 <meta itemprop="datePublished" content="2022-01-30T11:14:48-04:00" />
 <meta itemprop="dateModified" content="2022-01-30T11:14:48-04:00" />
-<meta itemprop="wordCount" content="424">
+<meta itemprop="wordCount" content="1413">
 
 
 
 <meta itemprop="keywords" content="mathematics,seasonality detection,time series analysis," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Seasonality detection with the discrete Fourier transform"/>
-<meta name="twitter:description" content="My masters work"/>
+<meta name="twitter:description" content="My masters work, part 1"/>
 
 	
   </head>
@@ -56,7 +56,7 @@
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://azcj.github.io/portfolio/images/seasonality1.png');">
+  <header class="cover bg-top" style="background-image: url('https://azcj.github.io/portfolio/images/DFT_equation1.png');">
     <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -116,7 +116,7 @@
           <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Seasonality detection with the discrete Fourier transform</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              My masters work
+              My masters work, part 1
             </h2>
           
         
@@ -186,14 +186,68 @@
 <p>As shown by the graph above, most time series data is not sparse. However, there are cases in which data <em>is</em> sparse - for example, imagine an internal server that is accessed by an individual once in a while in order to perform a health check on some kind of process. Perhaps it&rsquo;s important that this happens every Monday between 9:00am and 9:05am. In order to monitor this event, the data should be sampled every five minutes. A week of data would therefore contain 2,016 data points, 2,015 of which should be 0s and one of which should be a 1 to indicate the event.</p>
 <p><strong>2. WHY DFT</strong></p>
 <p>Identifying whether seasonality is present in this kind of data is nearly impossible with traditional methods. Therefore, I chose an algorithm called the discrete Fourier transform  (DFT to keep things short). I won&rsquo;t go into a ton of detail here about all the different applications for it, but essentially, it takes a signal and identifies the components of that signal to a very precise degree.</p>
-<p><strong>3. THE DFT EQUATIONS</strong></p>
+<p><strong>3. THE DFT EQUATION</strong></p>
+<p>There are two different representations of the DFT equation, and here is one of those:</p>
 <p><img src="https://azcj.github.io/portfolio/images/DFT_equation1.png" alt="DFT equation"></p>
-<p>insert code here</p>
+<p>This equation converts a sequence of <em>N</em> complex numbers to a new sequence of <em>N</em> complex numbers for 0 ≤ <em>k</em> ≤ <em>N</em> - 1. Essentially, this function takes data existing on the time domain and translates it onto the frequency domain.</p>
+<p>While it&rsquo;s possible to calculate this by hand or in code with a manual approach, we luckily have a few different Python libraries that we can use instead. I chose to use NumPy here, but SciPy also has a very good package for dealing with the DFT as well. I used the following code to calculate this equation. Here, <em>y</em> is a one-dimensional array of time series data.</p>
+<pre><code>import numpy as np
+sp = np.fft.fft(y) 
+</code></pre>
 <p><strong>4. CYCLE COUNT DETECTION</strong></p>
+<p>Okay, so the first step here is determining the number of cycles present in a signal. To demonstrate how this works, I used the following array that represents an event occurring twice weekly, on the first and fourth days of the week, for 56 days (8 weeks):</p>
+<pre><code>y = np.array(1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0).
+</code></pre>
+<p>In order to extract the number of cycles, I calculate the DFT and simply plot the resulting <em>N</em> sequence, or DFT coefficients:</p>
+<pre><code>dft = np.fft.fft(y) 
+plt.stem(dft)
+</code></pre>
+<p>The first ten DFT coefficients are in the table below:</p>
+<p><img src="https://azcj.github.io/portfolio/images/DFT-coefficients.png" alt="DFT coefficients"></p>
+<p>And the stem plot of the entire array looks like this:</p>
+<p><img src="https://azcj.github.io/portfolio/images/DFT-stem.png" alt="DFT stem plot"></p>
+<p>The coefficient at index zero is referred to as the DC component which is the mean amplitude of the signal. It describes how often on average a cycle is completed. Here, the DC component here 16. The number of sampled points <em>N</em>, divided by the DC component yields 3.5, which means a signal completes on average every 3.5 days - or that on average, two cycles complete every seven days.</p>
 <p><strong>5. PERIOD LENGTH DETECTION</strong></p>
+<p>While examining the DC component was useful in terms of detecting period length of each cycle, it doesn&rsquo;t provide an exact figure. First, I separated the two cycles and extracted just a single one, represented by the following array:</p>
+<pre><code>y = np.array(1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0)
+</code></pre>
+<p>In order to get that exact figure to determine period length, I used spectral analysis, which finds frequency bins (relating to the period in the time domain) and their associated power using power spectrum density (PSD). The Nyquist Sampling Theorem states that the largest frequency that can be returned
+is N/2 + 1. PSD is calculated using the following equation:</p>
+<p><img src="https://azcj.github.io/portfolio/images/PSD-equation.png" alt="Power spectral density equation"></p>
+<p>Where <em>Fs</em> is the sampling frequency, <em>N</em> is the number of total samples, <em>Pxx</em> is the PSD, and <em>f</em> is each frequency. This can be calculated in Python with:</p>
+<pre><code>freq = np.fft.fftfreq(len(y))
+ind = np.arange(1,int(len(y)/2 + 1))
+psd = abs(dft[ind])**2 + abs(dft[-ind])**2
+</code></pre>
+<p>And plotted with:</p>
+<pre><code>plt.plot(freq[ind], psd, &quot;k-&quot;)
+</code></pre>
+<p><img src="https://azcj.github.io/portfolio/images/PSD-graph.png" alt="Power spectral density graph"></p>
+<p>Any index above a 0.4 threshold is considered a frequency to note. The data is refined
+to include just those points with a frequency above 0.4. The graph above shows the frequencies plotted against PSD, in wattz/Hz. The PSD figures are (rounded): 0.1429, 0.2857, and 0.4286. The reasoning for multiple frequencies beyond the first here may be the result of aliasing, which I may explain in a further post.</p>
+<p>However, the first one is the only one I care about. The period is found by dividing 1 by the frequency. In this case, 1/0.1429 = 7. Thus the signal is determined to be
+seasonal, and its period is 7 days.</p>
 <p><strong>6. SIGNAL SHIFT DETECTION</strong></p>
+<p>Now that I&rsquo;ve identified the number of cycles and the periods of each cycle, I want to see if the signals are shifted along the time domain. For example, a dataset may begin
+with a non-event instance (i.e., 0) and the second instance may contain an event (i.e., 1). For this part, I use the following array:</p>
+<pre><code>y2 = np.array(0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0)
+</code></pre>
+<p>The Convolution theorem states that a convolution in the time domain is equal to a pointwise multiplication in the frequency domain [6]. In practice, the inverse tangent (also known as the negative arctangent) function, which calculates the angle between the real and imaginary parts, is used. That equation looks like this:</p>
+<p><img src="https://azcj.github.io/portfolio/images/convolution-eq.png" alt="Convolution theorem"></p>
+<p>In Python, this can be calculated with:</p>
+<pre><code>R_xy = np.fft.ifft(np.fft.fft(y2) * np.conj(np.fft.fft(y))) / (np.linalg.norm(y2) * np.linalg.norm(y))
+</code></pre>
+<p>Essentially, I have an array (y2) whose period I know. I do not know if this signal is shifted though. So I compare it to another array with the same period and signal length that I know <em>isn&rsquo;t</em> shifted along the time domain. This produces what&rsquo;s called the complex conjugate, which can be plotted as well with:</p>
+<pre><code>plt.plot(R_xy)
+</code></pre>
+<p><img src="https://azcj.github.io/portfolio/images/complex-conjugate.png" alt="Complex conjugate graph"></p>
+<p>As shown, the first peak in the graph occurs at index 3, indicating a signal shift of 4 days. Thus the events in this signal occur on the fourth day of the signal.</p>
 <hr>
 <p><strong>Final thoughts:</strong></p>
+<ul>
+<li>The methods outlined here can be completed on any number of signals and have been proven to be robust</li>
+<li>Making the signals binary was a choice that made working with the DFT much easier. However, it does present some challenged (what happens if two events occur during the same  sampled time point?)</li>
+</ul>
 <ul class="pa0">
   
    <li class="list">
