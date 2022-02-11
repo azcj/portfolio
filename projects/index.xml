@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Ireland housing</title>
+      <link>https://azcj.github.io/portfolio/projects/ireland_housing/</link>
+      <pubDate>Fri, 11 Feb 2022 11:25:05 -0400</pubDate>
+      
+      <guid>https://azcj.github.io/portfolio/projects/ireland_housing/</guid>
+      <description>visualization, statitical analysis</description>
+    </item>
+    
+    <item>
       <title>Anomaly detection in sparse, binary data</title>
       <link>https://azcj.github.io/portfolio/projects/anomaly_detection_dft/</link>
       <pubDate>Mon, 31 Jan 2022 11:14:48 -0400</pubDate>
@@ -71,15 +80,6 @@
       <pubDate>Fri, 14 Apr 2017 11:25:05 -0400</pubDate>
       
       <guid>https://azcj.github.io/portfolio/projects/scrabble/</guid>
-      <description>coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Ireland housing</title>
-      <link>https://azcj.github.io/portfolio/projects/ireland_housing/</link>
-      <pubDate>Fri, 14 Apr 2017 11:25:05 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/projects/ireland_housing/</guid>
       <description>coming soon!</description>
     </item>
     
