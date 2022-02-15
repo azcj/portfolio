@@ -178,8 +178,8 @@
 </ul>
 <hr>
 <p><em>If this page has been helpful to you in your own research, please consider citing</em> <em><a href="https://www.researchgate.net/publication/341623703_The_discrete_Fourier_transformation_for_seasonality_and_anomaly_detection_on_an_application_to_rare_data">the paper where this work is published.</a></em></p>
-<p>This work follows <a href="https://azcj.github.io/portfolio/projects/seasonality_dft/">part 1 of my masters thesis</a> in which I detected seasonality from binary and rare data. Part of this project also involved detecting anomalies. Like existing work in seasonality detection, existing work in anomaly detection typically involves statistical anomalies or moving averages. These methods only work when the data is composed of values other than 0 and 1. On this page, I outline the problem and my solution.</p>
-<p><strong>THE PROBLEM</strong></p>
+<p>This work follows <a href="https://azcj.github.io/portfolio/projects/seasonality_dft/">part 1 of my masters thesis</a> in which I detected seasonality from binary and rare data. Part of this project also involved detecting anomalies. Like existing work in seasonality detection, existing work in anomaly detection typically involves statistical anomalies or moving averages. These methods only work when the data is composed of values other than 0 and 1. On this page, I outline the <a href="#problem">problem</a> and my <a href="#solution">solution</a>.</p>
+<h2 id="problem">THE PROBLEM</h2>
 <p>There are two types of anomalies that need to be detected:</p>
 <ol>
 <li>expected events that have not occurred</li>
@@ -199,7 +199,7 @@ frequency.</p>
 <p>Both of these signal are displayed in the chart below:</p>
 <p><img src="https://azcj.github.io/portfolio/images/anomaly-detection/anomaly_detection_both_datasets_original2.png" alt="Two anomalous signals"></p>
 <p>As I just mentioned above, traditional anomaly detection methods work with non-binary and non-sparse data (trust me, I tried about five different methods, and none of them worked). In order to detect both of these types of anomalies, I needed to develop something new.</p>
-<p><strong>MY SOLUTION</strong></p>
+<h2 id="solution">MY SOLUTION</h2>
 <p>I developed a method (called sum of distances) in which each event instance in the signal is changed to a value representing the sum of its distance to the two points on either side. The new signal array after the sum of distances is applied on signal 1 is below:</p>
 <pre><code>signal1SOD = np.array(7, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0)
 </code></pre>

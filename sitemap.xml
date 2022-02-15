@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://azcj.github.io/portfolio/tags/experiment-design/</loc>
+    <lastmod>2022-02-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/projects/agent_speech_expe_analysis/</loc>
+    <lastmod>2022-02-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/tags/statistics/</loc>
+    <lastmod>2022-02-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/tags/</loc>
+    <lastmod>2022-02-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://azcj.github.io/portfolio/</loc>
+    <lastmod>2022-02-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://azcj.github.io/portfolio/projects/ireland_housing/</loc>
     <lastmod>2022-02-11T11:25:05-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,21 +52,7 @@
   </url>
   
   <url>
-    <loc>https://azcj.github.io/portfolio/tags/</loc>
-    <lastmod>2022-02-11T11:25:05-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://azcj.github.io/portfolio/tags/visualization/</loc>
-    <lastmod>2022-02-11T11:25:05-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://azcj.github.io/portfolio/</loc>
     <lastmod>2022-02-11T11:25:05-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -82,20 +103,6 @@
   <url>
     <loc>https://azcj.github.io/portfolio/projects/seasonality_dft/</loc>
     <lastmod>2022-01-30T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://azcj.github.io/portfolio/projects/agent_speech_expe_analysis/</loc>
-    <lastmod>2022-01-27T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://azcj.github.io/portfolio/tags/statistics/</loc>
-    <lastmod>2022-01-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Aryana Collins Jackson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Feb 2022 11:25:05 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 14 Feb 2022 10:58:08 -0400</lastBuildDate>
     
 	<atom:link href="https://azcj.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>experiment design</title>
+      <link>https://azcj.github.io/portfolio/tags/experiment-design/</link>
+      <pubDate>Mon, 14 Feb 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://azcj.github.io/portfolio/tags/experiment-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statistics</title>
+      <link>https://azcj.github.io/portfolio/tags/statistics/</link>
+      <pubDate>Mon, 14 Feb 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://azcj.github.io/portfolio/tags/statistics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>statistical analysis</title>
@@ -62,15 +80,6 @@
       <pubDate>Sun, 30 Jan 2022 11:14:48 -0400</pubDate>
       
       <guid>https://azcj.github.io/portfolio/tags/seasonality-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>statistics</title>
-      <link>https://azcj.github.io/portfolio/tags/statistics/</link>
-      <pubDate>Thu, 27 Jan 2022 10:58:08 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/tags/statistics/</guid>
       <description></description>
     </item>
     
