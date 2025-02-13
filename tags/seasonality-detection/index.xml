@@ -6,11 +6,7 @@
     <description>Recent content in seasonality detection on Aryana Collins Jackson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jan 2022 11:14:48 -0400</lastBuildDate>
-    
-	<atom:link href="https://azcj.github.io/portfolio/tags/seasonality-detection/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 30 Jan 2022 11:14:48 -0400</lastBuildDate><atom:link href="https://azcj.github.io/portfolio/tags/seasonality-detection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Seasonality detection with the discrete Fourier transform</title>
       <link>https://azcj.github.io/portfolio/projects/seasonality_dft/</link>
