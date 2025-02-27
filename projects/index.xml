@@ -8,21 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://azcj.github.io/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>An exploration of what factors lead to a Scrabble win</title>
+      <title>Scrabble: what letters lead to a win?</title>
       <link>https://azcj.github.io/portfolio/projects/scrabble/</link>
       <pubDate>Tue, 25 Feb 2025 11:25:05 -0400</pubDate>
       
       <guid>https://azcj.github.io/portfolio/projects/scrabble/</guid>
-      <description>coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://azcj.github.io/portfolio/projects/test/</link>
-      <pubDate>Tue, 11 Feb 2025 11:25:05 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/projects/test/</guid>
-      <description>visualization, statitical analysis</description>
+      <description>An analysis of how getting certain letters during a Scrabble game impact the outcome</description>
     </item>
     
     <item>
