@@ -6,7 +6,7 @@
     
     <title>Scrabble: what letters lead to a win? | Aryana Collins Jackson</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Based on 64 two-person games">
+    <meta name="description" content="An analysis of how getting certain letters during a Scrabble game impact the outcome. Based on 64 two-person games.">
     <meta name="generator" content="Hugo 0.92.0" />
     
     
@@ -28,19 +28,19 @@
     
     
     <meta property="og:title" content="Scrabble: what letters lead to a win?" />
-<meta property="og:description" content="Based on 64 two-person games" />
+<meta property="og:description" content="An analysis of how getting certain letters during a Scrabble game impact the outcome. Based on 64 two-person games." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://azcj.github.io/portfolio/projects/scrabble/" /><meta property="article:section" content="projects" />
 <meta property="article:published_time" content="2025-02-25T11:25:05-04:00" />
 <meta property="article:modified_time" content="2025-02-25T11:25:05-04:00" /><meta property="og:site_name" content="Aryana Collins Jackson" />
 
 <meta itemprop="name" content="Scrabble: what letters lead to a win?">
-<meta itemprop="description" content="Based on 64 two-person games"><meta itemprop="datePublished" content="2025-02-25T11:25:05-04:00" />
+<meta itemprop="description" content="An analysis of how getting certain letters during a Scrabble game impact the outcome. Based on 64 two-person games."><meta itemprop="datePublished" content="2025-02-25T11:25:05-04:00" />
 <meta itemprop="dateModified" content="2025-02-25T11:25:05-04:00" />
-<meta itemprop="wordCount" content="526">
+<meta itemprop="wordCount" content="1012">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Scrabble: what letters lead to a win?"/>
-<meta name="twitter:description" content="Based on 64 two-person games"/>
+<meta name="twitter:description" content="An analysis of how getting certain letters during a Scrabble game impact the outcome. Based on 64 two-person games."/>
 
 	
   </head>
@@ -113,7 +113,7 @@
           <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Scrabble: what letters lead to a win?</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              Based on 64 two-person games
+              An analysis of how getting certain letters during a Scrabble game impact the outcome. Based on 64 two-person games.
             </h2>
           
         
@@ -196,9 +196,31 @@
 <p>For the remainder of this project, I am referred to as &ldquo;M&rdquo; and my boyfriend is referred to as &ldquo;S&rdquo;.</p>
 <hr>
 <p><strong>Preliminary analysis and visualizations</strong></p>
-<p>I won 37 games, my boyfriend won 24 games, and there were 3 ties</p>
+<p>We mostly played throughout the pandemic, resulting in the vast majority of games in 2020.</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/GamesByYear.png" alt="Count of games by year"></p>
+<p>Looks like we were really crazy about it in January 2020 specifically!</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/GamesByMonth.png" alt="Count of games by month"></p>
+<p>I won 37 games, S won 24 games, and there were 3 ties</p>
 <p><img src="https://azcj.github.io/portfolio/images/scrabble/CountOfWon.png" alt="Overview of Scrabble games won"></p>
-<p>I got at least four of the seven high-scoring letters in 36 out of the 64 games. I had at least five of the seven high-scoring letters in 17 games, while my boyfriend had at least five of the letters in 15 games. I had all seven high-scoring letters in only one game, and my boyfriend never got all seven.</p>
+<p>Unfortunately, six games had incomplete data on who had which letters.</p>
+<p>I got at least four of the seven high-scoring letters in 34 out of the 58 games remaining, while S had at least four of those letters in 24 games. I had at least five of the seven high-scoring letters in 16 games, while he had at least five of the letters in 14 games - much more comparable. I had all seven high-scoring letters in only one game, while S never got all seven.</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/NumLettersHist.png" alt="Number of letters that I had histogram"></p>
+<p>We got each letter between 26 and 33 times in those 58 games. No remarkable insights here, although S got Z much more often than I did.</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/CountsOfLetters.png" alt="Counts of games in which we got each letter"></p>
+<hr>
+<p><strong>1. Which high-scoring letters most often lead to a win? Which letters most often lead to a loss?</strong></p>
+<p><em>In this section, I am looking at the 58 games with complete data only.</em></p>
+<p>First, a quick look at the win rates associated with this letter. For this part, I looked at whether the presence of a letter was associated with a win or loss. For example, if there was a game where I had a J and I won, that would count as a win for J. If there was a game where I had a J and I lost, that would count as a loss for J.</p>
+<p>Below is a chart showing the percentage of wins when the winner had each letter. Y had the highest win percentage of over 65% (meaning that when one of us had Y, that person won the game over 65% of the time - 38 games). Z had the lowest win percentage of almost 47%, and Z and J were the only letters associated with a win percentage of less than 50%. This could indicate that getting Z and J leads to a slightly less than random chance of winning - but more on this later in section xx.</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/LetterWinPercsTotal.png" alt="Total win percentage associated with each letter"></p>
+<p>The chart below shows the percentage of wins when S had each letter. Again, Y had the highest win percentage of almost 61%. Z and J had the lowest win percentage of 40%, and Z, J, and Q were the letters associated with a win percentage of less than 50%.</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/LetterWinPercsS.png" alt="S&rsquo;s win percentage associated with each letter"></p>
+<p>And the below chart shows the percentage of wins I had with each letter. Interestingly, the letter with the highest win percentage for me was W, with K and Y not far behind. This could mean that I am simply better at using W and K than S is. None of the letters I get are associated with a win rate lower than 50%, which indicates that getting any of these letters increases my odds of a win. The letters I get that have the lowest win rate are J and Z.</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/LetterWinPercsM.png" alt="My win percentage associated with each letter"></p>
+<p>To visualize the how win rates differ between S and me, the chart below shows how getting each letter impacts the odds of winning - a negative percentage shows the odds dropping when compared to random chance (50%), and a positive percentage shows the odds increasing when compared to random chance.</p>
+<p>xx - redo chart in Python
+<img src="https://azcj.github.io/portfolio/images/scrabble/WinPercsDiffRandom.png" alt="My win percentage associated with each letter"></p>
+<p>I AM HERE</p>
 <hr>
 <p><strong>Final thoughts:</strong></p>
 <ul>
