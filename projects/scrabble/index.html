@@ -37,7 +37,7 @@
 <meta itemprop="name" content="Scrabble: what letters lead to a win?">
 <meta itemprop="description" content="An analysis of how getting certain letters during a Scrabble game impact the outcome. Based on 64 two-person games."><meta itemprop="datePublished" content="2025-02-25T11:25:05-04:00" />
 <meta itemprop="dateModified" content="2025-02-25T11:25:05-04:00" />
-<meta itemprop="wordCount" content="1012">
+<meta itemprop="wordCount" content="1406">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Scrabble: what letters lead to a win?"/>
 <meta name="twitter:description" content="An analysis of how getting certain letters during a Scrabble game impact the outcome. Based on 64 two-person games."/>
@@ -204,13 +204,14 @@
 <p><img src="https://azcj.github.io/portfolio/images/scrabble/CountOfWon.png" alt="Overview of Scrabble games won"></p>
 <p>Unfortunately, six games had incomplete data on who had which letters.</p>
 <p>I got at least four of the seven high-scoring letters in 34 out of the 58 games remaining, while S had at least four of those letters in 24 games. I had at least five of the seven high-scoring letters in 16 games, while he had at least five of the letters in 14 games - much more comparable. I had all seven high-scoring letters in only one game, while S never got all seven.</p>
+<p>The chart below shows the number of games played where I had anywhere from 1-7 of the high-scoring letters.</p>
 <p><img src="https://azcj.github.io/portfolio/images/scrabble/NumLettersHist.png" alt="Number of letters that I had histogram"></p>
 <p>We got each letter between 26 and 33 times in those 58 games. No remarkable insights here, although S got Z much more often than I did.</p>
 <p><img src="https://azcj.github.io/portfolio/images/scrabble/CountsOfLetters.png" alt="Counts of games in which we got each letter"></p>
 <hr>
 <p><strong>1. Which high-scoring letters most often lead to a win? Which letters most often lead to a loss?</strong></p>
 <p><em>In this section, I am looking at the 58 games with complete data only.</em></p>
-<p>First, a quick look at the win rates associated with this letter. For this part, I looked at whether the presence of a letter was associated with a win or loss. For example, if there was a game where I had a J and I won, that would count as a win for J. If there was a game where I had a J and I lost, that would count as a loss for J.</p>
+<p>First, a quick look at the win rates associated with each letter. For this part, I looked at whether the presence of a letter was associated with a win or loss. For example, if there was a game where I had a J and I won, that would count as a win for J. If there was a game where I had a J and I lost, that would count as a loss for J.</p>
 <p>Below is a chart showing the percentage of wins when the winner had each letter. Y had the highest win percentage of over 65% (meaning that when one of us had Y, that person won the game over 65% of the time - 38 games). Z had the lowest win percentage of almost 47%, and Z and J were the only letters associated with a win percentage of less than 50%. This could indicate that getting Z and J leads to a slightly less than random chance of winning - but more on this later in section xx.</p>
 <p><img src="https://azcj.github.io/portfolio/images/scrabble/LetterWinPercsTotal.png" alt="Total win percentage associated with each letter"></p>
 <p>The chart below shows the percentage of wins when S had each letter. Again, Y had the highest win percentage of almost 61%. Z and J had the lowest win percentage of 40%, and Z, J, and Q were the letters associated with a win percentage of less than 50%.</p>
@@ -220,7 +221,18 @@
 <p>To visualize the how win rates differ between S and me, the chart below shows how getting each letter impacts the odds of winning - a negative percentage shows the odds dropping when compared to random chance (50%), and a positive percentage shows the odds increasing when compared to random chance.</p>
 <p>xx - redo chart in Python
 <img src="https://azcj.github.io/portfolio/images/scrabble/WinPercsDiffRandom.png" alt="My win percentage associated with each letter"></p>
+<p><strong>2. What combination of letters most often leads to a win for each of us? What combination of letters leads to a loss more?</strong></p>
+<p><em>In this section, I am again only looking at 55 games: the games with complete data and those with a winner - no ties.</em></p>
+<p>I identified the 129 possible combinations of 0, 1, 2, 3, 4, 5, 6, and 7 letters that each of us could have had. Out of those 129 combinations, we had only 80 different combinations between us. There were only 24 combos that appeared at least twice in the data. Using these 24 combinations of letters (including two single letters, J and K), I calculated the win percentage overall for each, similarly to how I did above. The label includes the percentage as well as the number of won games.</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/CombosWinPercTotal.png" alt="Total win percentage associated with each letter combination"></p>
+<p>Note that the sample size here is so small that we can&rsquo;t really draw any major conclusions - this whole analysis is just for fun! However, we can see that the more letters a player has, the higher the win rate. When a player had only one letter, they had a 0% win rate. If I had a larger dataset with more rows with each combo, I might be able to come to the conclusion that, for example, I have a 67% chance of winning if I get the letters J, X, Y, and Z during a game.</p>
+<p>For S, there were a few combinations that always led to a loss, but there were also a few that always led to a win - see the chart below.</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/CombosWinPercTotal-S.png" alt="S&rsquo;s win percentage associated with each letter combination"></p>
 <p>I AM HERE</p>
+<p>Percentages are great, but I wanted to do more in-depth analysis to understand the impact of each letter on the game outcome. I chose binary classification as the method here, so I started with the 58 games that have complete data and further removed the three games that ended in a tie. For the sake of this analysis, I determined that the positive class would be games I won. Each letter column was then transformed into 1s (if I had the letter) or 0s (if S had the letter).</p>
+<p>Because each column is also binary (and represents a count), I started with a Poisson binary classification.</p>
+<p>binary classification</p>
+<p>[]</p>
 <hr>
 <p><strong>Final thoughts:</strong></p>
 <ul>
