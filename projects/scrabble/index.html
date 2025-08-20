@@ -31,13 +31,13 @@
 <meta property="og:description" content="An analysis of how getting certain letters during a Scrabble game impact the outcome. Based on 64 two-person games." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://azcj.github.io/portfolio/projects/scrabble/" /><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2025-02-25T11:25:05-04:00" />
-<meta property="article:modified_time" content="2025-02-25T11:25:05-04:00" /><meta property="og:site_name" content="Aryana Collins Jackson" />
+<meta property="article:published_time" content="2025-08-20T11:25:05-04:00" />
+<meta property="article:modified_time" content="2025-08-20T11:25:05-04:00" /><meta property="og:site_name" content="Aryana Collins Jackson" />
 
 <meta itemprop="name" content="Scrabble: what letters lead to a win?">
-<meta itemprop="description" content="An analysis of how getting certain letters during a Scrabble game impact the outcome. Based on 64 two-person games."><meta itemprop="datePublished" content="2025-02-25T11:25:05-04:00" />
-<meta itemprop="dateModified" content="2025-02-25T11:25:05-04:00" />
-<meta itemprop="wordCount" content="1406">
+<meta itemprop="description" content="An analysis of how getting certain letters during a Scrabble game impact the outcome. Based on 64 two-person games."><meta itemprop="datePublished" content="2025-08-20T11:25:05-04:00" />
+<meta itemprop="dateModified" content="2025-08-20T11:25:05-04:00" />
+<meta itemprop="wordCount" content="2431">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Scrabble: what letters lead to a win?"/>
 <meta name="twitter:description" content="An analysis of how getting certain letters during a Scrabble game impact the outcome. Based on 64 two-person games."/>
@@ -162,7 +162,7 @@
       
       
       
-      <time class="f6 mv4 dib tracked" datetime="2025-02-25T11:25:05-04:00">February 25, 2025</time>
+      <time class="f6 mv4 dib tracked" datetime="2025-08-20T11:25:05-04:00">August 20, 2025</time>
       
 
       
@@ -170,14 +170,15 @@
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Overview:</p>
 <ul>
-<li>64 Scrabble games were recorded between myself and my boyfriend (2-player games only) between December 2019 and February 2025 (<em>yes</em>, this means that the sample size is very small)</li>
+<li>64 Scrabble games were recorded between myself and my boyfriend (2-player games only) between December 2019 and February 2025 (<em>yes</em>, this means that the sample size is very small).</li>
+<li>Getting a Z or J for either of us brings our scores down, while X brings our scores up.</li>
+<li>S wins games most when he has a Y; I win games most when I have a W.</li>
+<li>As is the case with all of my projects shown on this site, this analysis is just for fun. I am very aware that 64 samples is not a large enough dataset to draw any accurate insights from. I still had a good time pulling this together, and I think there are some interesting things that came out of it.</li>
 </ul>
-<hr>
-<p><em>This analysis is currently in progress</em></p>
 <hr>
 <p>Context:</p>
 <ul>
-<li>My boyfriend and I bought a French Scrabble game in 2019. The French game has seven high-scoring letters: J (8), K (10), Q (8), W (10), X (10), Y (10), and Z (10). We played the game in English.</li>
+<li>My boyfriend and I bought a French Scrabble game in 2019. The French game has seven high-scoring letters: J (8 points), K (10 points), Q (8 points), W (10 points), X (10 points), Y (10 points), and Z (10 points). We played the game in English.</li>
 <li>Scrabble became a pastime for us during the pandemic. Fifty games were played in 2020 alone.</li>
 <li>I kept track of the dates we played, who started the game, who won the game, the final scores, and who had each of the seven high-scoring letters.</li>
 <li>I did not keep track of what letters were left over at the end of the game and therefore what scores were added and subtracted from final scores. In future, I would add this to the data in order to analyse the most common ending letters/points, to find out if that impacts the overall winner more than not, and to see who most often gets stuck with letters at the end.</li>
@@ -186,11 +187,10 @@
 <hr>
 <p>Questions:</p>
 <ol>
-<li>Which high-scoring letters most often lead to a win for each of us? Which letters most often lead to a loss?</li>
-<li>What combination of letters most often leads to a win for each of us? What combination of letters leads to a loss more?</li>
 <li>Does starting have an impact on the outcome of the game for each of us? Does starting have an impact on score?</li>
-<li>And most importantly, how many points is each letter responsible for? In other words, while playing the game, can I anticipate an increase or decrease in a certain amount of points based on which letters I get?</li>
-<li>Similarly to the above question, how do the odds of winning change for each letter? In other words, while playing the game, can I anticipate a higher or lower chance of winning depending on which letters I get?</li>
+<li>Which high-scoring letters most often lead to a win for each of us? Which letters most often lead to a loss? How do the odds of winning change for each letter? In other words, while playing the game, can I anticipate a higher or lower chance of winning depending on which letters I get?</li>
+<li>How many points is each letter responsible for? In other words, while playing the game, can I anticipate an increase or decrease in a certain amount of points based on which letters I get?</li>
+<li>What combination of letters most often leads to a win for each of us? What combination of letters leads to a loss more?</li>
 </ol>
 <p><strong>I have organized this project into sections based on some preliminary figures, the questions above, and a section at the end diving into the three tied games.</strong></p>
 <p>For the remainder of this project, I am referred to as &ldquo;M&rdquo; and my boyfriend is referred to as &ldquo;S&rdquo;.</p>
@@ -209,7 +209,41 @@
 <p>We got each letter between 26 and 33 times in those 58 games. No remarkable insights here, although S got Z much more often than I did.</p>
 <p><img src="https://azcj.github.io/portfolio/images/scrabble/CountsOfLetters.png" alt="Counts of games in which we got each letter"></p>
 <hr>
-<p><strong>1. Which high-scoring letters most often lead to a win? Which letters most often lead to a loss?</strong></p>
+<p><strong>1.Does starting have an impact on the outcome of the game for each of us? Does starting have an impact on score?</strong></p>
+<p><em>In this section, I am again only looking at 55 games: the games with complete data and those with a winner - no ties.</em></p>
+<p>I did a few different tests to determine whether the starting player had any more of a chance of winning or losing than the non-starting player. Because these were two binary categorical variables, I did a Pearson test, a Chi-2 test of independence, and a Fisher&rsquo;s exact test. Unfortunately the p-values for all three were insignificant. The values below are rounded to the fourth decimal place.</p>
+<p>Pearson correlation (phi): 0.0510
+p-value: 0.7144</p>
+<p>Chi-2 statistic: 0.0088
+p-value: 0.9254</p>
+<p>Fisher&rsquo;s odds ratio: 1.2338
+p-value: 0.7827</p>
+<p>Then, in order to look at the correlation between the starting player and score, I split the dataset up between myself and S. For my dataset, &ldquo;Starter&rdquo; was a binary variable containing 1 if I started and 0 if S started, and my score was the second column.</p>
+<p>The Pearson correlation was insignificant again:</p>
+<p>Pearson correlation (phi): 0.1014
+p-value: 0.4655</p>
+<p>However, I also chose to do a Mann–Whitney test, chosen due to the non-normality of my scores:</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/M_Score_Histogram.png" alt="A histogram showing non-normality of my scores"></p>
+<p>Mann-Whitney statistic: 2916.0
+p-value &lt; 0.0000</p>
+<p>While the Pearson test was insignificant, the Mann-Whitney test shows a difference in distribution between the scores when I started the game and when I didn&rsquo;t. To examine this further, here&rsquo;s a boxplot of the two groups:</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/M_Score_boxplot_split.png" alt="A boxplot split by whether I started the game"></p>
+<p>Looking at the above figure, I can say that there is a possibility of reaching higher scores when I start the game, but the difference is not huge.</p>
+<p>For S&rsquo;s dataset, &ldquo;Starter&rdquo; contained 1 if he started, and 0 if I started, with his score as the second column.</p>
+<p>The Pearson correlation was insignificant for his data as well:</p>
+<p>Pearson correlation (phi): 0.1232
+p-value: 0.3748</p>
+<p>His score data looks more normal but failed a Shapiro test:</p>
+<p>Shapiro statistic: 0.9804
+p-value: 0.5171</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/S_Score_Histogram.png" alt="A histogram showing non-normality of S&rsquo;s scores"></p>
+<p>The Mann-Whitney test results for S&rsquo;s score data are below (the p-values of the test on my data and his are different but both very small):</p>
+<p>Mann-Whitney statistic: 2916.0
+p-value &lt; 0.0000</p>
+<p>Again, the Mann-Whitney test shows a difference in distribution between the scores when he started the game and when he didn&rsquo;t. Below is a boxplot of the two groups:</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/S_Score_boxplot_split.png" alt="A boxplot split by whether S started the game"></p>
+<p>His scores seem to vary more when he starts a game, with both a possibility of reaching higher scores but also lower scores when he starts the game.</p>
+<p><strong>2. Which high-scoring letters most often lead to a win? Which letters most often lead to a loss? How do the odds of winning change for each letter? In other words, while playing the game, can I anticipate a higher or lower chance of winning depending on which letters I get?</strong></p>
 <p><em>In this section, I am looking at the 58 games with complete data only.</em></p>
 <p>First, a quick look at the win rates associated with each letter. For this part, I looked at whether the presence of a letter was associated with a win or loss. For example, if there was a game where I had a J and I won, that would count as a win for J. If there was a game where I had a J and I lost, that would count as a loss for J.</p>
 <p>Below is a chart showing the percentage of wins when the winner had each letter. Y had the highest win percentage of over 65% (meaning that when one of us had Y, that person won the game over 65% of the time - 38 games). Z had the lowest win percentage of almost 47%, and Z and J were the only letters associated with a win percentage of less than 50%. This could indicate that getting Z and J leads to a slightly less than random chance of winning - but more on this later in section xx.</p>
@@ -221,22 +255,47 @@
 <p>To visualize the how win rates differ between S and me, the chart below shows how getting each letter impacts the odds of winning - a negative percentage shows the odds dropping when compared to random chance (50%), and a positive percentage shows the odds increasing when compared to random chance.</p>
 <p>xx - redo chart in Python
 <img src="https://azcj.github.io/portfolio/images/scrabble/WinPercsDiffRandom.png" alt="My win percentage associated with each letter"></p>
-<p><strong>2. What combination of letters most often leads to a win for each of us? What combination of letters leads to a loss more?</strong></p>
+<p><strong>3. How many points is each letter responsible for? In other words, while playing the game, can I anticipate an increase or decrease in a certain amount of points based on which letters I get?</strong></p>
+<p>This question is similar to the above, but here, I am really searching for the actual points that each letter brings to the game.</p>
+<p>I chose to do some machine learning here with binary classification and regression. Remember that this analysis is just for fun and that I wouldn&rsquo;t do machine learning on such few samples if I needed real results.</p>
+<p>I started with the 58 games that have complete data and further removed the three games that ended in a tie, leaving 55 games. For the first model, I focused on myself, so the &ldquo;Win&rdquo; column was 1 if I won and 0 if I lost. Each letter column was also binary with 1 if I had the letter and 0 if I didn&rsquo;t.</p>
+<p>I fit an XGBoost classifier with the objective &ldquo;binary:logistic&rdquo; and the booster &ldquo;gblinear&rdquo;. I then used Shapley values as model explainers to understand the impact of each letter:</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/M_binarylogistic__gblinearglobalshapleys.png" alt="Global Shapley values for an XBG Classifier model on data predicting a win or not for me"></p>
+<p>It looks like letters Z and Q negatively impact my win odds, which confirms findings from above that my lowest win rates were games where I had Z and Q. Interestingly, the presence of J or not doesn&rsquo;t seem to make much of an impact in this model. Note that I did not test the model for future predictions or make a train-test split - the model was built for explanation purposes only, and so it was built on all data.</p>
+<p>The same process was done for S&rsquo;s win data, with the following Shapley results:</p>
+<p><img src="https://azcj.github.io/portfolio/images/scrabble/S_binarylogistic_gblinear_globalshapleys.png" alt="Global Shapley values for an XBG Classifier model on data predicting a win or not for S"></p>
+<p>We see a similar story here, with the letter Z most contributing negatively towards a win, which confirms earlier findings. The letters J and Q do not make much of an impact in this model.</p>
+<p>To see the impact of each letter on my score, I fit an XGBoost Regressor model with the objective &ldquo;reg:squarederror&rdquo; - again, the model was built just for explanatory purposes rather than future prediction purposes, so the entire dataset is used. The coefficients for each letter are below:</p>
+<p>J = 4.00471
+K = 12.5959
+Q = -3.0184
+W = 9.26433
+X = 16.9354
+Y = 4.06752
+Z = -16.2962</p>
+<p>Again, this confirms earlier findings. Z impacts my score the most negatively by bringing my score down by an average of 16 points, while X impacts my score the most positively by bringing it up by an average of almost 17 points.</p>
+<p>The same XGB Regressor model was fit on S&rsquo;s data, which led to the following coefficients:</p>
+<p>J = -3.79383
+K = 2.79961
+Q = 4.34727
+W = 12.9154
+X = 15.76
+Y = 9.8497
+Z = -3.8046</p>
+<p>For S, a Z and a J both impact his score most negatively by bringing it down by an average of almost 4 points, while X impacts his score the most positively by bringing it up by an average of almost 16 points.</p>
+<p><strong>4. What combination of letters most often leads to a win for each of us? What combination of letters leads to a loss more?</strong></p>
 <p><em>In this section, I am again only looking at 55 games: the games with complete data and those with a winner - no ties.</em></p>
 <p>I identified the 129 possible combinations of 0, 1, 2, 3, 4, 5, 6, and 7 letters that each of us could have had. Out of those 129 combinations, we had only 80 different combinations between us. There were only 24 combos that appeared at least twice in the data. Using these 24 combinations of letters (including two single letters, J and K), I calculated the win percentage overall for each, similarly to how I did above. The label includes the percentage as well as the number of won games.</p>
 <p><img src="https://azcj.github.io/portfolio/images/scrabble/CombosWinPercTotal.png" alt="Total win percentage associated with each letter combination"></p>
 <p>Note that the sample size here is so small that we can&rsquo;t really draw any major conclusions - this whole analysis is just for fun! However, we can see that the more letters a player has, the higher the win rate. When a player had only one letter, they had a 0% win rate. If I had a larger dataset with more rows with each combo, I might be able to come to the conclusion that, for example, I have a 67% chance of winning if I get the letters J, X, Y, and Z during a game.</p>
 <p>For S, there were a few combinations that always led to a loss, but there were also a few that always led to a win - see the chart below.</p>
 <p><img src="https://azcj.github.io/portfolio/images/scrabble/CombosWinPercTotal-S.png" alt="S&rsquo;s win percentage associated with each letter combination"></p>
-<p>I AM HERE</p>
-<p>Percentages are great, but I wanted to do more in-depth analysis to understand the impact of each letter on the game outcome. I chose binary classification as the method here, so I started with the 58 games that have complete data and further removed the three games that ended in a tie. For the sake of this analysis, I determined that the positive class would be games I won. Each letter column was then transformed into 1s (if I had the letter) or 0s (if S had the letter).</p>
-<p>Because each column is also binary (and represents a count), I started with a Poisson binary classification.</p>
-<p>binary classification</p>
-<p>[]</p>
+<p>I would have loved to some more in-depth analysis to understand the best combination of letters to pick during a Scrabble game, but there just wasn&rsquo;t enough data to do anything more meaningful.</p>
 <hr>
 <p><strong>Final thoughts:</strong></p>
 <ul>
-<li>It felt like we played Scrabble way more than 64 times in five years</li>
+<li>It felt like we played Scrabble way more than 64 times in five years.</li>
+<li>I enjoyed seeing the difference between score and wins - they are related, but they are not the same, and focusing on score only will not necessarily lead to a win. For example, the insight about me winning more games when having a W but having a higher score with X is interesting.</li>
 </ul>
 <ul class="pa0">
   
