@@ -17,12 +17,12 @@
     </item>
     
     <item>
-      <title>Test</title>
-      <link>https://azcj.github.io/portfolio/projects/test/</link>
-      <pubDate>Tue, 11 Feb 2025 11:25:05 -0400</pubDate>
+      <title>An analysis and visualization of how I&#39;ve learned French from zero-C1</title>
+      <link>https://azcj.github.io/portfolio/projects/french/</link>
+      <pubDate>Fri, 07 Jun 2024 11:25:05 -0400</pubDate>
       
-      <guid>https://azcj.github.io/portfolio/projects/test/</guid>
-      <description>visualization, statitical analysis</description>
+      <guid>https://azcj.github.io/portfolio/projects/french/</guid>
+      <description>visualization</description>
     </item>
     
     <item>
@@ -50,15 +50,6 @@
       
       <guid>https://azcj.github.io/portfolio/projects/anomaly_detection_dft/</guid>
       <description>mathematics, anomaly detection</description>
-    </item>
-    
-    <item>
-      <title>An analysis and visualization of how I&#39;ve learned French from A1-B2</title>
-      <link>https://azcj.github.io/portfolio/projects/french/</link>
-      <pubDate>Sun, 30 Jan 2022 11:25:05 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/projects/french/</guid>
-      <description>visualization</description>
     </item>
     
     <item>
