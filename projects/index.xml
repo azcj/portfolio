@@ -44,15 +44,6 @@
     </item>
     
     <item>
-      <title>Investigation into how people perceive human speech</title>
-      <link>https://azcj.github.io/portfolio/projects/agent_speech_expe_analysis/</link>
-      <pubDate>Mon, 14 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/projects/agent_speech_expe_analysis/</guid>
-      <description>statistics, experiment design</description>
-    </item>
-    
-    <item>
       <title>Visualizing the search for housing in Ireland</title>
       <link>https://azcj.github.io/portfolio/projects/ireland_housing/</link>
       <pubDate>Fri, 11 Feb 2022 11:25:05 -0400</pubDate>
@@ -89,20 +80,20 @@
     </item>
     
     <item>
+      <title>Designing speech for four different kinds of leaders</title>
+      <link>https://azcj.github.io/portfolio/projects/agent_speech_expe_analysis/</link>
+      <pubDate>Mon, 01 Nov 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://azcj.github.io/portfolio/projects/agent_speech_expe_analysis/</guid>
+      <description>Experimental design, statistical analysis, and development of language rules</description>
+    </item>
+    
+    <item>
       <title>A prediction algorithm for student grades</title>
       <link>https://azcj.github.io/portfolio/projects/student_grades/</link>
       <pubDate>Fri, 14 Apr 2017 11:25:05 -0400</pubDate>
       
       <guid>https://azcj.github.io/portfolio/projects/student_grades/</guid>
-      <description>coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Natural language processing: identifying speech characteristics of different types of leaders</title>
-      <link>https://azcj.github.io/portfolio/projects/nlp/</link>
-      <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
-      
-      <guid>https://azcj.github.io/portfolio/projects/nlp/</guid>
       <description>coming soon!</description>
     </item>
     
